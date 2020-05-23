@@ -98,11 +98,9 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: richardchesterwood/k8s-fleetman-webapp-angular:release1
+        image: richardchesterwood/k8s-fleetman-webapp-angular:release0
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: production-microservice
-        - name: env
-          value: prod
 
         
