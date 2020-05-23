@@ -102,5 +102,7 @@ spec:
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: production-microservice
+        - name: env
+          value: prod
 
         
